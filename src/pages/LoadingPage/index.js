@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';        // useRef serve para guardar um estado, mesmo que esse estado venha a mudar. useEffect serve para fazer algo acontecer em algum momento.
+import { useEffect, useRef } from 'react';
 import { Text, View, Image, Animated, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 

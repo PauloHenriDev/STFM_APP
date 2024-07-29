@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         width: 246,
         padding: 10,
         borderRadius: 11,
-        borderWidth: 1,         // Serve para definir a largura das bordas
+        borderWidth: 1,
         borderColor: '#A99321',
     },
     buttonText: {

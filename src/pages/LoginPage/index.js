@@ -1,4 +1,4 @@
-import { View, Image, SafeAreaView, TextInput, onPress, Text } from 'react-native';
+import { View, Image, SafeAreaView, TextInput, onPress, Text, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useState } from 'react';
 
@@ -9,8 +9,7 @@ const logoImg = require("../../img/logoSTFM2.png");
 const InitialPage = () => {
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');
-    const [submitted, setSubmitted] = useState(false);
-
+    
     return (
         <LinearGradient
             colors={['#151515', '#081D22', '#000000']}
@@ -43,7 +42,9 @@ const InitialPage = () => {
                 <View style={styles.buttonLogin}>
                     <Button text="Entrar" onPress={onPress} />
                 </View>
-                <Text style={styles.forgot}>Esqueceu a senha?</Text>
+                <TouchableOpacity>
+                    <Text style={styles.forgot}>Esqueceu a senha?</Text>
+                </TouchableOpacity>
                 <View style={styles.buttonFirstAcess}>
                     <Button text="Primeiro Acesso" onPress={onPress} />
                 </View>

@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     },
     inputWrapper: {
         marginTop: 54.69,
-        width: 202.02, // Defina a largura do contêiner
+        width: 202.02,
         alignItems: 'center',
         gap: 47,
     },
@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
     },
     inputBox: {
         width: '100%',
-        borderBottomWidth: 2, // Largura da borda inferior
-        borderBottomColor: '#A99321', // Cor da borda inferior
+        borderBottomWidth: 2,
+        borderBottomColor: '#A99321',
     },
     input: {
         fontSize: 14,
